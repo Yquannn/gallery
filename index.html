@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .home-image {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .home-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .home-image img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <h1>Welcome to Our Class Page</h1>
+    
+    <!-- Image Gallery -->
+    <div class="home-image">
+        <img src="image/1a12aa4e-0bf6-4091-a778-f521526c3770.jpg" alt="Home Image 1">
+        <img src="image/71a73863-1210-4d89-9ae7-a1ae4aa005ce.jpg" alt="Home Image 2">
+        <img src="image/b35b5e14-8a01-41b5-8a89-7b4303af3093.jpg" alt="Home Image 3">
+        <img src="image/dc3fa9cf-20f2-4007-b640-d620121cf253.jpg" alt="Home Image 4">
+        <img src="image/e4a54ce4-5ebe-4792-b130-877ded9b0dc0.jpg" alt="Home Image 5">
+        <img src="image/fdde3bb0-3df8-49da-ba77-ca98ec2502ed.jpg" alt="Home Image 6">
+    </div>
+</body>
+</html>
